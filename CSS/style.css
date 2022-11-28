@@ -1,0 +1,286 @@
+body{
+  text-align: center;
+}
+
+h1{
+  letter-spacing: 3px;
+  font-size: 4rem;
+  font-family: 'Chicle', cursive;
+  color: #fff;
+}
+
+h2{
+  font-family: 'DM Serif Display', serif;
+  color: #F38BA0;
+}
+
+hr{
+  border: none;
+  margin: 1px;
+  background-color: black;
+}
+
+label{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+
+input{
+  background-color: #F1F1F6;
+  border-radius: 15px;
+}
+
+textarea{
+  background-color: #F1F1F6;
+  padding: 1rem;
+  border: solid;
+  border-color: black grey grey black;
+  border-radius: 15px;
+}
+
+#title{
+  background-color: #FFC8C8;
+}
+
+.row{
+  margin: 0;
+}
+
+.petactive{
+  color:#FF8FB1;
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+}
+
+.brand-icon{
+  margin: 3rem 0 1rem 1.5rem;
+  color: #323232;
+  transform: rotate(-30deg);
+  border: solid;
+  border-width: thin;
+  border-radius: 100%;
+  padding: .5rem;
+  background-color: #FF8FB1;
+}
+
+.petactive:hover{
+  color: #FFE8E8;
+}
+
+.nav-link{
+  margin: 1rem;
+  font-family: 'montserrat', sans-serif;
+  color: #FF8FB1;
+}
+
+.navbar{
+  padding: 2rem 0 1.5rem 0;
+}
+
+.t-left{
+  text-align: left;
+  background-color: #323232;
+  background-image: url("https://i.pinimg.com/564x/d2/11/36/d2113673fddcba51b12f7412a39c6189.jpg");
+  background-size: cover;
+  padding: 0;
+}
+
+.intro-text{
+  padding: 10% 15% 0;
+  line-height: 2;
+}
+
+.t-button{
+  margin: 15% 0;
+}
+
+
+#features{
+  margin: 0;
+  padding: 7% 10%;
+}
+
+.f-col{
+  line-height: 3;
+  padding: 2rem;
+}
+
+.f-logo{
+  margin: 2rem;
+  color: #FF9292;
+}
+
+.f-logo:hover{
+  color: #DC3535;
+}
+
+#testimonial{
+  padding: 5% 10%;
+  background-color: #FFC7C7;
+}
+
+.testimonial-line{
+  padding: 0 15% 3rem;
+}
+
+.feature-col{
+  padding: 5%;
+}
+
+.feature-img{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+}
+
+.bdr{
+  line-height: 1.5;
+  padding: 1.5rem;
+  border: solid;
+  border-radius: 10px;
+  border-width: thick;
+  border-color: #FFBCBC;
+  height: 220px;
+  background-color: #ECE2E1;
+}
+
+#pricing{
+  padding: 7% 10%;
+}
+
+.card-header{
+  background-color: #FF9292;
+}
+
+.price-column{
+  padding: 2rem 3rem;
+}
+
+.pricing-line{
+  padding: 0 15% 2%
+}
+
+.signup-btn{
+  text-decoration: none;
+  color: #fff;
+}
+
+.signup-btn:hover{
+  color: #AAAAAA;
+}
+
+.p-button{
+  padding: 0 30%;
+}
+
+#contact-info{
+  background-color: #FAECEB;
+  padding: 7% 15%;
+}
+
+.contact-heading{
+  padding: 0 15% 5%;
+}
+
+.contact-line{
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+#footer{
+  padding: 7% 0 4%;
+  background-color: #323232;
+}
+
+.footer-link{
+  padding: 2rem 1rem;
+  color: #EA5455;
+}
+
+.footer-link:hover{
+  color: #FF9292;
+}
+
+.copyright-line{
+  font-family: 'montserrat', sans-serif;
+  color: #fff;
+  padding: 2rem 0 0;
+}
+
+/* For SignUp Page */
+
+/* navigation Side */
+.left-nav{
+  text-align: left;
+  background-image: url("https://i.pinimg.com/564x/92/d4/c8/92d4c822545ce1939d5e2545ae838596.jpg");
+  background-size: cover;
+  background-color: #323232;
+  padding: 0;
+}
+
+/* heading */
+
+.profile-heading{
+  padding: 0 8rem 2rem;
+  font-family: 'Kurale', serif;
+  font-weight: 700;
+}
+
+.photo-upload{
+  border: solid;
+  border-color: black grey grey black;
+}
+
+/* Owner Details */
+
+.signup-info{
+  padding: 0;
+}
+
+.owner-info{
+  padding-top: 10%;
+  background-color: #FFC7C7;
+  text-align: center;
+}
+
+.owner-row{
+  padding: 2rem;
+  margin: 0;
+}
+
+/* Pet Basics */
+
+.pet-info{
+  padding-top: 10%;
+  background-color: #FFE2E2;
+  text-align: center;
+}
+
+/* Buttons */
+
+.btn-row{
+  padding: 3rem 0;
+  margin: 0;
+  background-color: #F6F6F6;
+}
+
+.photo-btn{
+  margin: 1rem auto;
+}
+
+/* Pet Details */
+
+#pet-detailID{
+  text-align: center;
+}
+
+.pet-detail{
+  background-color: #FFC7C7;
+  padding: 10% 0 0;
+}
+
+
+.detail-text{
+  padding: 1rem 0 2rem;
+}
